@@ -1,4 +1,4 @@
-Invia file MP3 a studio.myfaba (FABA•ME).
+Converte e invia gli MP3 a studio.myfaba (FABA•ME).
 
 Non è alcun haking del sistema, ma la possibilità di inviare un file audio senza doverlo registrare.
 
