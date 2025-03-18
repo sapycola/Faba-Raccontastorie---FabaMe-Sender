@@ -28,8 +28,26 @@ def convert_and_upload_audio(input_file_path, post_url, creator, title, log_cons
     if not xsrf_token:
         log_console.log("Errore nel recupero del token.")
         return
-    with open(input_file_path, "rb") as mp3file:
-        files = {"userAudio": mp3file}
+
+    # Percorso del file WAV temporaneo
+    output_wav_path = f"{os.getcwd()}{os.sep}output.wav"
+
+    # Comando FFmpeg per convertire MP3 in WAV
+    ffmpeg_command = [
+        "ffmpeg", "-i", input_file_path, "-acodec", "pcm_s16le",
+        "-ar", "44100", "-ac", "2", "-y", output_wav_path
+    ]
+
+    try:
+        subprocess.run(ffmpeg_command, check=True)
+        log_console.log(f"Conversione completata: {output_wav_path} Procedo all invio sul FABA Me Rosso")
+    except subprocess.CalledProcessError:
+        log_console.log("Errore nella conversione con FFmpeg.")
+        return
+
+    # Caricamento del file WAV
+    with open(output_wav_path, "rb") as wav_file:
+        files = {"userAudio": wav_file}
         data = {"_token": xsrf_token, "creator": creator, "title": title}
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
