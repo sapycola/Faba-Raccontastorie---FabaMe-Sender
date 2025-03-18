@@ -10,7 +10,7 @@ Faba Box: [Faba Box](https://amzn.to/3FDOR5x)
 
 Faba+: [Faba+](https://amzn.to/3FDOR5x)
 
-Scaricare il file.zip, estrarre il contenuto nella SUA cartella. Eseguire.
+Scaricare il file ZIP presente in Release, estrarre il contenuto nella SUA cartella. Eseguire.
 
 Donazione:
 
