@@ -16,5 +16,14 @@ Donazione:
 
 <a href="https://www.buymeacoffee.com/salcolantop"><img src="https://img.buymeacoffee.com/button-api/?text=Comprami un caffè&emoji=☕&slug=salcolantop&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
+oppure:
+
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="C5DHEBC3FD5QG" />
+<input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Fai una donazione con il pulsante PayPal" />
+<img alt="" border="0" src="https://www.paypal.com/it_IT/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+
 
 Gruppo Telegram: [Telegram](https://t.me/fabaitaliaunofficial)
