@@ -2,7 +2,7 @@ Invia file MP3 a studio.myfaba (FABA•ME).
 
 Non è alcun haking del sistema, ma la possibilità di inviare un file audio senza doverlo registrare.
 
-In basso i link affiliati/referenziati per l'acquisto di Faba:
+In basso i link affiliati/referenziati Amazon per l'acquisto di Faba:
 
 Faba•Me (Rosso/Blu) : [Link Faba•Me](https://amzn.to/3ReZnCJ)
 
